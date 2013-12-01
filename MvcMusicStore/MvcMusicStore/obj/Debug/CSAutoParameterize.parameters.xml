@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="LocalSqlServer-Web.config Connection String" description="LocalSqlServer Connection String used in web.config by the application to access the database." defaultvalue="Data Source=DBServerName;Integrated Security=false;Initial Catalog=DBName;User ID=DBLogin;Password=DBPassword" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\user\\Documents\\Visual_Studio_2010\\Projects\\MvcMusicStore\\MvcMusicStore\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LocalSqlServer']/@connectionString" />
+  </parameter>
+  <parameter name="MusicStoreEntities-Web.config Connection String" description="MusicStoreEntities Connection String used in web.config by the application to access the database." defaultvalue="Data Source=|DataDirectory|MvcMusicStore.sdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\user\\Documents\\Visual_Studio_2010\\Projects\\MvcMusicStore\\MvcMusicStore\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MusicStoreEntities']/@connectionString" />
+  </parameter>
+</parameters>
